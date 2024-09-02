@@ -1,0 +1,763 @@
+/************************ HOME ***********************/
+
+.home-bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-icon {
+    width: 35px;
+}
+
+.home-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 1em;
+}
+
+.home-hlo {
+    color: #fbc640;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 0.1em;
+}
+
+.home-person {
+    color: #ffff;
+    font-weight: 800;
+    font-size: 4em;
+    margin-bottom: 0.1px;
+}
+
+.home-txt {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+}
+
+.home-btn {
+    color: #ffff !important;
+    text-transform: capitalize !important;
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+    border-color: #fbc640 !important;
+    border-radius: 30px !important;
+    padding: 0.1em 1em !important;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 4em;
+}
+
+.contact-icon {
+    color: #fbc640;
+    font-size: 17px !important;
+}
+
+/************************ ABOUT ***********************/
+
+.section-container {
+    background: #333333;
+}
+
+.check {
+    margin-top: 10px;
+    background: #333333;
+}
+
+.about-container {
+    display: flex;
+}
+
+.designer {
+    width: 30%;
+    max-width: 100%;
+    height: 30%;
+    margin: 0.5em 2em;
+}
+
+.dsgn {
+    margin: 4em 2em;
+}
+
+.designer-abt {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fbc640;
+}
+
+.line {
+    height: 2px;
+    width: 105px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #fbc640 40%, #7a7474 5% 95%);
+}
+
+.designer-txt {
+    font-size: 1em;
+    color: #ffff;
+    margin-top: 1em;
+    max-width: 866px;
+    text-align: justify;
+}
+
+.designer-btn {
+    display: flex;
+    gap: 2em;
+}
+
+/************* STRENGTH  *************/
+
+.strength-container {
+    margin: 0.5em 6.5em;
+}
+
+/************* SKILLS  *************/
+
+.skill-heading {
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fbc640;
+}
+
+.skill-content {
+    display: flex;
+    gap: 4em;
+}
+
+.skill-txt {
+    font-size: 1em;
+    color: #ffff;
+    margin-top: 1em;
+    max-width: 442px;
+    text-align: justify;
+}
+
+.skill-icon {
+    width: 40px;
+}
+
+/************* RESUME ****************/
+
+.resume-heading {
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fbc640;
+    text-align: center;
+}
+
+.resume-line {
+    height: 2px;
+    width: 85px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #7a7474 30% 1%, #fbc640 1% 70%, #7a7474 30%);
+    margin: 0px auto 0;
+}
+
+.experience-heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fbc640;
+}
+
+.exp-line {
+    height: 2px;
+    width: 115px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #fbc640 40%, #7a7474 5% 95%);
+}
+
+.exp-designation {
+    font-size: 1em;
+    color: #ffff;
+    width: 200px;
+    font-weight: 600;
+}
+
+.experience-container {
+    max-width: 100%;
+}
+
+.exp-container {
+    width: 80%;
+}
+
+.company-section {
+    margin-bottom: 20px;
+}
+
+.exp-cmny {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    color: #fbc640;
+}
+
+.exp-year {
+    margin-left: 20px;
+    font-size: 1em;
+    color: #fbc640;
+    font-style: italic;
+}
+
+.exp-description {
+    font-size: 1em;
+    color: #ffff;
+    margin-top: 1em;
+    line-height: 1.5;
+    max-width: 1047px;
+    text-align: justify;
+}
+
+/******************** RESPONSIVENESS *****************/
+
+@media (max-width: 1176px) {
+    .home-person {
+        font-size: 3em;
+    }
+
+    .home-txt {
+        font-size: 1.3em;
+    }
+
+    .dsgn {
+        margin: 3em 2em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .strength-container {
+        margin: 0.5em 4.5em;
+    }
+
+    .skill-content {
+        display: flex;
+        gap: 1.5em;
+    }
+
+    .skill-icon {
+        width: 31px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt,
+    .home-txt,
+    .home-hlo {
+        font-size: 1.3em;
+    }
+
+    .home-person {
+        font-size: 2.8em;
+    }
+
+    .contact-info {
+        margin-top: 3em;
+    }
+
+    .home-btn {
+        font-size: 1.1em !important;
+        padding: 0.05em 0.5em !important;
+    }
+
+    .dsgn {
+        margin: 2em 4em;
+    }
+
+    .line {
+        width: 93px;
+    }
+
+    .resume-line {
+        width: 75px;
+    }
+
+    .exp-line {
+        width: 100px;
+    }
+
+    .exp-description,
+    .exp-designation,
+    .exp-cmny,
+    .exp-year,
+    .designer-txt {
+        font-size: 0.9em;
+    }
+
+    .strength-container {
+        margin: 0.5em 4em;
+    }
+
+    .skill-content {
+        display: flex;
+        gap: 2em;
+    }
+
+    .skill-txt {
+        font-size: 0.9em;
+        max-width: 300px;
+    }
+
+    .skill-icon {
+        width: 25px;
+    }
+}
+
+@media (max-width: 844px) {
+    .home-hlo {
+        font-size: 1em;
+    }
+
+    .home-person {
+        font-size: 2em !important;
+    }
+
+    .home-txt {
+        font-size: 1em;
+    }
+
+    .home-btn {
+        font-size: 1.2em !important;
+        font-weight: 400 !important;
+    }
+
+    .designer {
+        width: 31%;
+        margin: 0.5em 1em;
+    }
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt {
+        font-size: 1.2em;
+    }
+
+    .line {
+        width: 86px;
+    }
+
+    .exp-description,
+    .exp-cmny,
+    .exp-year,
+    .designer-txt {
+        font-size: 0.8em;
+    }
+
+    .strength-container {
+        margin: 0.5em 4em;
+    }
+
+    .skill-txt {
+        font-size: 0.8em;
+        max-width: 593px;
+    }
+
+    .skill-content {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .skill-icon {
+        width: 35px;
+    }
+
+    .resume-line {
+        width: 70px;
+    }
+
+    .exp-line {
+        width: 94px;
+    }
+
+    .exp-container {
+        width: 100%;
+    }
+
+    .exp-designation {
+        font-size: 0.8em;
+        width: 342px;
+    }
+}
+
+@media (max-width: 843px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-hlo {
+        font-weight: 600;
+        font-size: 0.8em;
+        margin-bottom: 0.1em;
+    }
+
+    .home-icon {
+        width: 25px;
+    }
+
+    .home-person {
+        font-size: 2.5em;
+    }
+
+    .home-txt {
+        font-size: 0.8em;
+    }
+
+    .home-btn {
+        font-size: 1em !important;
+        padding: 0.05em 0.5em !important;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 0.5em;
+        margin-top: 1em;
+    }
+
+    .contact-txt {
+        font-size: 0.8em;
+    }
+
+    .contact-icon {
+        color: #fbc640;
+        font-size: 15px !important;
+    }
+
+    .designer {
+        width: 35%;
+        margin: 0.5em 0.5em;
+    }
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt {
+        font-size: 1.1em;
+    }
+
+    .line {
+        width: 79px;
+    }
+
+    .resume-line {
+        width: 64px;
+    }
+
+    .exp-line {
+        width: 86px;
+    }
+}
+
+@media (max-width: 624px) {
+    .strength-container {
+        margin: 0.5em 3em;
+    }
+
+    .dsgn {
+        margin: 2em 2.8em;
+    }
+}
+
+@media (max-width: 620px) {
+    .home-hlo {
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+
+    .home-icon {
+        width: 15px;
+    }
+
+    .home-person {
+        font-size: 1.5em !important;
+    }
+
+    .home-txt {
+        font-size: 0.8em !important;
+    }
+
+    .home-btn {
+        font-size: 1em !important;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 0.5em;
+        margin-top: 1.2em;
+    }
+
+    .designer {
+        width: 40%;
+        margin: 0.5em 0em;
+    }
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt {
+        font-size: 1.1em;
+    }
+
+    .strength-container {
+        margin: 0.5em 2.5m;
+    }
+
+    .skill-icon {
+        width: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-hlo {
+        font-weight: 400;
+        font-size: 0.6em;
+    }
+
+    .home-icon {
+        width: 14px;
+    }
+
+    .home-person {
+        font-size: 1.2em !important;
+    }
+
+    .home-txt {
+        font-size: 0.6em !important;
+    }
+
+    .home-btn {
+        font-size: 0.7em !important;
+        padding: 0.1em 0.5em !important;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 0.1em;
+        margin-top: 1em !important;
+    }
+
+    .contact-icon {
+        color: #fbc640;
+        font-size: 14px !important;
+    }
+
+    .contact-txt {
+        font-size: 0.6em;
+    }
+
+    .dsgn {
+        margin: 1.5em 3em;
+    }
+
+    .exp-description,
+    .exp-cmny,
+    .exp-year,
+    .exp-designation,
+    .designer-txt {
+        font-size: 0.6em;
+    }
+
+    .skill-txt {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-person {
+        font-size: 1.2em;
+    }
+
+    .home-icon {
+        width: 14px;
+    }
+
+    .home-txt {
+        font-size: 0.6em;
+    }
+
+    .home-btn {
+        font-size: 0.5em !important;
+        padding: 0.1em 0.1em !important;
+    }
+
+    .contact-icon {
+        color: #fbc640;
+        font-size: 11px !important;
+    }
+
+    .contact-txt {
+        font-size: 0.6em;
+    }
+
+    .designer {
+        width: 45%;
+        margin: 0.5em 0.5em;
+    }
+
+    .dsgn {
+        margin: 1.5em 3em;
+    }
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt {
+        font-size: 0.9em;
+    }
+
+    .line {
+        width: 65px;
+    }
+
+    .exp-description,
+    .exp-cmny,
+    .exp-year,
+    .exp-designation,
+    .designer-txt {
+        font-size: 0.5em;
+    }
+
+    .skill-icon {
+        width: 20px;
+    }
+
+    .skill-txt {
+        font-size: 0.5em;
+    }
+
+    .exp-cmny {
+        display: block;
+    }
+
+    .exp-year {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .resume-line {
+        width: 52px;
+    }
+
+    .exp-line {
+        width: 71px;
+    }
+}
+
+@media (max-width: 420px) {
+    .home-hlo {
+        font-weight: 400;
+        font-size: 0.5em;
+    }
+
+    .home-icon {
+        width: 15px;
+    }
+
+    .home-person {
+        font-size: 1em;
+    }
+
+    .home-txt {
+        font-size: 0.5em;
+    }
+
+    .home-btn {
+        font-size: 0.5em !important;
+        padding: 0.1em 0.1em !important;
+        margin-bottom: 0.025em;
+    }
+
+    .contact-icon {
+        color: #fbc640;
+        font-size: 11px !important;
+    }
+
+    .contact-txt {
+        font-size: 0.5em;
+    }
+
+    .dsgn {
+        margin: 1.3em 2em;
+    }
+}
+
+@media (max-width: 397px) {
+    .home-hlo {
+        font-size: 0.4em;
+    }
+
+    .home-icon {
+        width: 13px;
+    }
+
+    .home-person {
+        font-size: 1em !important;
+    }
+
+    .home-txt {
+        font-size: 0.4em !important;
+    }
+
+    .home-btn {
+        font-size: 0.4em !important;
+        padding: 0.1em 0.1em !important;
+        margin-bottom: 0.025em;
+    }
+
+    .contact-icon {
+        color: #fbc640;
+        font-size: 11px !important;
+    }
+
+    .contact-txt {
+        font-size: 0.4em;
+    }
+
+    .designer {
+        width: 35%;
+        margin: 0.5em 0.5em;
+    }
+
+    .resume-heading,
+    .experience-heading,
+    .skill-heading,
+    .designer-abt {
+        font-size: 0.8em;
+    }
+
+    .line {
+        width: 57px;
+    }
+
+    .resume-line {
+        width: 47px;
+    }
+
+    .exp-line {
+        width: 63px;
+    }
+}
