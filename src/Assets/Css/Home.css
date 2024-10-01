@@ -26,7 +26,7 @@
 }
 
 .home-hlo {
-    color: #fbc640;
+    color: #faaf47;
     font-weight: 600;
     font-size: 1.4em;
     margin-bottom: 0.1em;
@@ -51,7 +51,7 @@
     text-transform: capitalize !important;
     font-size: 1.5em !important;
     font-weight: 600 !important;
-    border-color: #fbc640 !important;
+    border-color: #faaf47 !important;
     border-radius: 30px !important;
     padding: 0.1em 1em !important;
 }
@@ -64,7 +64,7 @@
 }
 
 .contact-icon {
-    color: #fbc640;
+    color: #faaf47;
     font-size: 17px !important;
 }
 
@@ -97,14 +97,14 @@
 .designer-abt {
     font-size: 1.5em;
     font-weight: 600;
-    color: #fbc640;
+    color: #faaf47;
 }
 
 .line {
     height: 2px;
     width: 105px;
     border-radius: 10px;
-    background: linear-gradient(to right, #fbc640 40%, #7a7474 5% 95%);
+    background: linear-gradient(to right, #faaf47 40%, #7a7474 5% 95%);
 }
 
 .designer-txt {
@@ -132,7 +132,7 @@
     margin-top: 3em;
     font-size: 1.5em;
     font-weight: 600;
-    color: #fbc640;
+    color: #faaf47;
 }
 
 .skill-content {
@@ -158,7 +158,7 @@
     margin-top: 3em;
     font-size: 1.5em;
     font-weight: 600;
-    color: #fbc640;
+    color:#faaf47;
     text-align: center;
 }
 
@@ -166,21 +166,21 @@
     height: 2px;
     width: 85px;
     border-radius: 10px;
-    background: linear-gradient(to right, #7a7474 30% 1%, #fbc640 1% 70%, #7a7474 30%);
+    background: linear-gradient(to right, #7a7474 30% 1%, #faaf47 1% 70%, #7a7474 30%);
     margin: 0px auto 0;
 }
 
 .experience-heading {
     font-size: 1.5em;
     font-weight: 600;
-    color: #fbc640;
+    color: #faaf47;
 }
 
 .exp-line {
     height: 2px;
     width: 115px;
     border-radius: 10px;
-    background: linear-gradient(to right, #fbc640 40%, #7a7474 5% 95%);
+    background: linear-gradient(to right, #faaf47 40%, #7a7474 5% 95%);
 }
 
 .exp-designation {
@@ -206,13 +206,13 @@
     display: flex;
     justify-content: space-between;
     font-size: 1em;
-    color: #fbc640;
+    color: #faaf47;
 }
 
 .exp-year {
     margin-left: 20px;
     font-size: 1em;
-    color: #fbc640;
+    color: #faaf47;
     font-style: italic;
 }
 
@@ -442,7 +442,7 @@
     }
 
     .contact-icon {
-        color: #fbc640;
+        color: #faaf47;
         font-size: 15px !important;
     }
 
@@ -560,7 +560,7 @@
     }
 
     .contact-icon {
-        color: #fbc640;
+        color: #faaf47;
         font-size: 14px !important;
     }
 
@@ -604,7 +604,7 @@
     }
 
     .contact-icon {
-        color: #fbc640;
+        color: #faaf47;
         font-size: 11px !important;
     }
 
@@ -692,7 +692,7 @@
     }
 
     .contact-icon {
-        color: #fbc640;
+        color: #faaf47;
         font-size: 11px !important;
     }
 
@@ -729,7 +729,7 @@
     }
 
     .contact-icon {
-        color: #fbc640;
+        color: #faaf47;
         font-size: 11px !important;
     }
 

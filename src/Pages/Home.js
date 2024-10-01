@@ -17,6 +17,9 @@ import Audition from '../Assets/Images/Portfolio Icon-06.png';
 import Canva from '../Assets/Images/Portfolio Icon-10.png';
 import Videography from '../Assets/Images/Portfolio Icon-11.png';
 import Photography from '../Assets/Images/Portfolio Icon-08.png';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import Profile from '../Assets/Images/jetly.jpg';
+
 
 function Home() {
 
@@ -60,7 +63,7 @@ function Home() {
                         <div className='home-hlo'>Hello Everyone <img src={Icon} alt="Hello" className="home-icon" /></div>
                         <p className='home-person'>I'm Jetly Johnson</p>
                         <p className='home-txt'>Graphic Designer & Video Editor</p>
-                        <a href="/Jetly_Johnson_CV.pdf" download>
+                        <a href={`${process.env.PUBLIC_URL}/Jetly_Johnson_CV.pdf`} download>
                             <Button variant="outlined" className='home-btn'>Download CV</Button>
                         </a>
                         <div className='contact-info'>
@@ -80,7 +83,7 @@ function Home() {
                             alt="Graphic Designer & Video Editor"
                             className="designer"
                         />
-                        <div className='dsgn'>
+                        <div id="about" className='dsgn'>
                             <div className='designer-abt'>About Me
                                 <div className='line'></div>
                             </div>
@@ -93,7 +96,7 @@ function Home() {
                             <p className='designer-txt'>I'm always exploring new trends and technologies to keep my work fresh and innovative. When I'm
                                 not designing, I enjoy learning new skills and finding inspiration in the world around me.</p>
                             <div className='designer-btn'>
-                                <a href="/Jetly_Johnson_CV.pdf" download>
+                                <a href={`${process.env.PUBLIC_URL}/Jetly_Johnson_CV.pdf`} download>
                                     <Button variant="outlined" className='home-btn'>Download CV</Button>
                                 </a>
                                 <Button variant="outlined" className='home-btn'>Portfolio</Button>
@@ -131,7 +134,6 @@ function Home() {
                             <div className='row'>
                                 {
                                     Skills?.map((ele, index) => {
-                                        console.log(ele)
                                         return (
                                             <div key={index} className='col-6 designer-txt'>
                                                 {ele?.image} &nbsp; {ele?.skill}
@@ -142,7 +144,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='strength-container'>
+                    <div id="resume" className='strength-container'>
                         <div className='resume-heading'>Resume
                             <div className='resume-line'></div>
                         </div>
@@ -256,6 +258,13 @@ function Home() {
                     <div className='check'></div>
                 </div>
             </div>
+            <FloatingWhatsApp
+            phoneNumber="+971544220855"
+            accountName="Jetly Johnson"
+            avatar={Profile} // You can use an image for the WhatsApp avatar
+            statusMessage="Typically replies within a few minutes"
+            chatMessage="Hello, how can I assist you today?"
+        />
         </>
     )
 }

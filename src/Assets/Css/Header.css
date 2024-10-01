@@ -40,7 +40,7 @@
 }
 
 .header-text {
-    color: #fbc640 !important;
+    color: #faaf47 !important;
     margin-right: 3em;
     white-space: nowrap;
 }
@@ -61,6 +61,40 @@
 .header-icon {
     color: #ffff;
     margin-right: 0.3em;
+    cursor: pointer;
+}
+
+/* Header.css */
+
+/* Default (non-active) link styles */
+.header-text,
+.header-text-wt {
+    color: #ffffff !important; /* White for non-active links */
+    margin-right: 3em;
+    white-space: nowrap;
+}
+
+/* Active state styling */
+.navbar-nav .nav-link.active {
+    color: #faaf47 !important; /* Active link color - yellow */
+    font-weight: bold; /* Optional: make it bold */
+}
+
+.header-text.active, 
+.header-text-wt.active {
+    color: #faaf47 !important; /* Yellow for active link */
+}
+
+/* Other existing styles */
+
+.profile-dsgn{
+    width: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cursor{
+    cursor: pointer;
 }
 
 @media (max-width: 992px) {

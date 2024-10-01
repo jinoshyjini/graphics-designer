@@ -1,0 +1,48 @@
+ .branding-container {
+     padding: 2em;
+     background: #cdcbcb;
+ }
+
+ .branding-heading {
+     font-size: 1.5em;
+     font-weight: 600;
+     color: #ffff;
+     text-align: center;
+ }
+
+ .branding-image {
+     max-width: 100%;
+     height: auto;
+     max-height: 200px;
+ }
+
+ .branding-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1em;
+     padding-top: 2em;
+ }
+
+ .branding-item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     position: relative;
+ }
+
+ .breadcrumb {
+     a {
+         color: #333;
+         text-decoration: none;
+     }
+
+     a:hover {
+         color: #faaf47 !important;
+     }
+
+     .breadcrumb-item+.breadcrumb-item::before {
+         content: var(--bs-breadcrumb-divider, ">") !important;
+     }
+
+ }

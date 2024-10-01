@@ -1,0 +1,188 @@
+.portfolio-container {
+    padding: 2em;
+    background: #cdcbcb;
+}
+
+.portfolio-heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffff;
+    text-align: center;
+}
+
+.port-desn {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #faaf47;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    cursor: pointer;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.port-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #ffff;
+    text-align: center;
+    padding: 5.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.port-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.portfolio-video {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.branding-btn {
+    margin: 1em 2.5em;
+    color: #ffff !important;
+    text-transform: capitalize !important;
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+    border-color: #faaf47 !important;
+    border-radius: 30px !important;
+    padding: 0.1em 1em !important;
+}
+
+.image-preview {
+    width: 50%;
+    margin: 0em 7em
+}
+
+.design-select {
+    margin: 0em 7em;
+    padding-bottom: 10px;
+}
+
+.video-upload-container {
+    margin: 0 3.8em;
+}
+
+.video-upload-part {
+    margin-bottom: 3em;
+}
+
+.video-desn {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #faaf47;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.video-upload-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    cursor: pointer;
+}
+
+.video-style{
+    max-height: 178px;
+}
+
+.model-video{
+    max-height: 700px;
+}
+
+.video-upload-part video {
+    pointer-events: none;   
+}
+
+/******************** RESPONSIVENESS *****************/
+
+@media (max-width: 1076px) {
+    .port-txt {
+        padding: 4em;
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 992px) {
+    .port-txt {
+        padding: 3.5em;
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 844px) {
+    .port-txt {
+        padding: 3.5em;
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .port-txt {
+        padding: 3.5em;
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width: 682px) {
+    .port-txt {
+        padding: 3.5em;
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 586px) {
+    .port-txt {
+        padding: 3.5em;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .port-txt {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 420px) {
+    .port-txt {
+        font-size: 0.5em;
+    }
+}
+
+
+@media (max-width: 397px) {}
