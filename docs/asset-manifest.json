@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/graphics-designer/static/css/main.a727d54b.css",
+    "main.js": "/graphics-designer/static/js/main.c2ce3910.js",
+    "static/media/Background.png": "/graphics-designer/static/media/Background.d73a7b3e19db3628a44f.png",
+    "static/media/personal.png": "/graphics-designer/static/media/personal.31f525922256c2e479ab.png",
+    "static/media/typography2.jpg": "/graphics-designer/static/media/typography2.497b179cb3d77b1842ea.jpg",
+    "static/media/branding1.jpg": "/graphics-designer/static/media/branding1.928955ab91a4163c7568.jpg",
+    "static/media/jetly.jpg": "/graphics-designer/static/media/jetly.aa36a0a48918e9edb444.jpg",
+    "static/media/developer.png": "/graphics-designer/static/media/developer.f82995ce169dcb0644a5.png",
+    "static/media/Portfolio Icon-14.png": "/graphics-designer/static/media/Portfolio Icon-14.911b198e107706f8ad3f.png",
+    "index.html": "/graphics-designer/index.html",
+    "main.a727d54b.css.map": "/graphics-designer/static/css/main.a727d54b.css.map",
+    "main.c2ce3910.js.map": "/graphics-designer/static/js/main.c2ce3910.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a727d54b.css",
+    "static/js/main.c2ce3910.js"
+  ]
+}
